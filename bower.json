@@ -1,0 +1,21 @@
+{
+  "name": "Lab4",
+  "homepage": "https://github.com/Johaen11/COMP125-LAB4",
+  "authors": [
+    "johaen11 <johngnanakumar@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "scripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

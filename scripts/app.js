@@ -11,9 +11,7 @@
        username : "",
        password : ""
     }
-    alert('in iife')
     function displayUser(){
-        console.log('into function')
         User.username = Username.value
         User.password = Password.value
        console.log("++++++++++++++++++++++++++++++++++++++++++");

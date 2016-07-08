@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+  <!--css-->
+  <link rel="stylesheet" href="scripts\lib\bootstrap\dist\css\bootstrap.min.css">
+</head>
+
 <body>
 
-<form>
-  Username:<br>
-  <input type="text" name="Username" id="Username">
-  <br>
-  Password:<br>
-  <input type="text" name="Password" id = "Password">
-  <div class="text-right">
-  
-  <button type="button" id="LogIn" class="btn btn-primary">Log In</button>
- </div>
-</form>
+  <div class="container">
+    
+    <form>
+      Username:<br>
+      <input type="text" name="Username" id="Username">
+      <br> Password:
+      <br>
+      <input type="text" name="Password" id="Password">
+      <div>
 
-<script src="scripts/app.js"></script>
+        <button type="button" id="LogIn" class="btn btn-primary">Log In</button>
+      </div>
+    </form>
+  </div>
+
+  <!--javascript libraries-->
+  <script src="scripts\lib\jquery\dist\jquery.min.js"></script>
+  <script src="scripts\lib\bootstrap\dist\js\bootstrap.min.js"></script>
+
+  <script src="scripts/app.js"></script>
 </body>
+
 </html>
